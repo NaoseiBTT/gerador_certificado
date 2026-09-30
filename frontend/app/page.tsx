@@ -17,7 +17,7 @@ export default function Home() {
 
   async function gerarCertificado() {
    
-    const resposta = await fetch("http://localhost:5000/certificado",{
+    const resposta = await fetch("https://gerador-certificado-rwmz.onrender.com/certificado",{
       method:"POST",
       headers:{
         "Content-Type":"application/json"
