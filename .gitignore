@@ -1,0 +1,41 @@
+# ======================
+# Next.js
+# ======================
+
+frontend/node_modules/
+frontend/.next/
+frontend/out/
+
+
+# ======================
+# Python
+# ======================
+
+api-python/__pycache__/
+api-python/*.pyc
+api-python/venv/
+api-python/.venv/
+
+
+# ======================
+# Certificados gerados
+# ======================
+
+*.pdf
+
+
+# ======================
+# Docker
+# ======================
+
+*.log
+
+
+# ======================
+# Sistema operacional
+# ======================
+
+.vscode/
+.env
+.DS_Store
+Thumbs.db
