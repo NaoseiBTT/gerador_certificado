@@ -113,7 +113,7 @@ def certificado():
     # Assinatura
     pdf.setFillColor(AZUL_ESCURO)
     pdf.setFont("Helvetica-Bold", 13)
-    pdf.drawCentredString(largura / 2 + 150, 130, "Coordenação SENAI")
+    pdf.drawCentredString(largura / 2 + 150, 130, "Coordenação")
     pdf.setStrokeColor(AZUL_ESCURO)
     pdf.setLineWidth(1)
     pdf.line(largura / 2 + 50, 145, largura / 2 + 250, 145)
@@ -121,7 +121,7 @@ def certificado():
     # Rodapé institucional
     pdf.setFillColor(CINZA_SUAVE)
     pdf.setFont("Helvetica-Oblique", 9)
-    pdf.drawCentredString(largura / 2, 45, "Documento emitido eletronicamente • Autenticidade garantida")
+    pdf.drawCentredString(largura / 2, 45, "Documento emitido eletronicamente")
 
     pdf.save()
 

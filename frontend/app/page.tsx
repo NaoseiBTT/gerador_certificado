@@ -57,9 +57,6 @@ export default function Home() {
       <div className="w-full max-w-lg bg-slate-900/80 backdrop-blur-md border border-slate-800 rounded-2xl shadow-2xl p-8 transition-all">
         {/* Header */}
         <div className="text-center mb-8">
-          <span className="inline-block px-3 py-1 text-xs font-semibold uppercase tracking-wider text-blue-400 bg-blue-500/10 rounded-full mb-3 border border-blue-500/20">
-            SENAI • Emissor Oficial
-          </span>
           <h1 className="text-3xl font-extrabold text-white tracking-tight">
             Gerador de Certificados
           </h1>
@@ -68,7 +65,6 @@ export default function Home() {
           </p>
         </div>
 
-        {/* Form */}
         <form onSubmit={gerarCertificado} className="space-y-5">
           <div>
             <label className="block text-xs font-medium text-slate-300 uppercase tracking-wider mb-2">
